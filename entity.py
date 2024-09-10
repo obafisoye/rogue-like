@@ -11,7 +11,7 @@ class Entity:
         self.char = char
         self.color = color
 
-    def move(self, dx: int, dy:int) -> None:
+    def move(self, dx: int, dy: int) -> None:
         # MOVE THE ENTITY BY A GIVEN AMOUNT
         self.x += dx
         self.y += dy
