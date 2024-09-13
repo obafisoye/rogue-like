@@ -5,8 +5,8 @@ import numpy as np
 graphic_dt = np.dtype(
     [
         ("ch", np.int32),   # unicode codepoint
-        ("fg", "38"),   # 3 unsigned bytes, for rgb colors
-        ("bg", "38")
+        ("fg", "3B"),   # 3 unsigned bytes, for rgb colors
+        ("bg", "3B")
     ]
 )
 
